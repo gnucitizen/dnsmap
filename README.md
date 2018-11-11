@@ -154,9 +154,9 @@ $ ./dnsmap-bulk.sh domains.txt /tmp/results/
 
 ## Wordlists
 
-http://packetstormsecurity.org/Crackers/wordlists/dictionaries/
-http://www.cotse.com/tools/wordlists1.htm
-http://wordlist.sourceforge.net/
+* http://packetstormsecurity.org/Crackers/wordlists/dictionaries/
+* http://www.cotse.com/tools/wordlists1.htm
+* http://wordlist.sourceforge.net/
 
 ## Other Similar Tools - choice is freedom!
 
