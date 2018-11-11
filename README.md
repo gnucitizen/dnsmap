@@ -1,3 +1,5 @@
+[![Follow on Twitter](https://img.shields.io/twitter/follow/gnucitizen.svg?logo=twitter)](https://twitter.com/gnucitizen)
+
 # dnsmap
 
 dnsmap was originally released back in 2006 and was inspired by the fictional story "The Thief No One Saw" by Paul Craig, which can be found in the book "Stealing the Network - How to 0wn the Box"
@@ -65,17 +67,14 @@ Lack of multi-threading. This speed issue will hopefully be resolved in future v
 ## Fun Things That Can Happen
 
 1. Finding interesting remote access servers (e.g.: https://extranet.targetdomain.com)
-
 2. Finding badly configured and/or unpatched servers (e.g.: test.targetdomain.com)
 
 3. Finding new domain names which will allow you to map non-obvious/hard-to-find netblocks
    of your target organization (registry lookups - aka whois is your friend)
-
 4. Sometimes you find that some bruteforced subdomains resolve to internal IP addresses
    (RFC 1918). This is great as sometimes they are real up-to-date "A" records which means
    that it *is* possible to enumerate internal servers of a target organization from the
    Internet by only using standard DNS resolving (as oppossed to zone transfers for instance).
-
 5. Discover embedded devices configured using Dynamic DNS services (e.g.: linksys-cam.com).
    This method is an alternative to finding devices via Google hacking techniques
 
